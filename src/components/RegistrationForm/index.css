@@ -1,0 +1,120 @@
+/* Write your CSS code here */
+
+.Registration-From {
+  color: #ea580c;
+}
+
+.container {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .input-con {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-container {
+    width: 60%;
+    margin: 20px;
+  }
+
+  .input {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 30px;
+  }
+
+  .inner-container {
+    box-shadow: 0px 4px 16px 0px;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .error-msg {
+    font-size: 13px;
+    color: #ff0b37;
+  }
+  .submitButton {
+    background-color: #ea580c;
+    border-radius: 5px;
+    color: #ffffff;
+    border: 0;
+    outline: none;
+    height: 25px;
+    cursor: pointer;
+  }
+  .button-con {
+    text-align: center;
+    width: 100%;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
+.inputBoxupdated {
+  border: 1px #ff0b37 solid;
+  background-color: #fef2f4;
+}
+.img-container {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    text-align: center;
+    font-size: 10px;
+  }
+  .inner-container {
+    box-shadow: 0px 4px 16px 0px;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input {
+    width: 90%;
+    font-size: 10px;
+    height: 17px;
+  }
+  .form-container {
+    width: 60%;
+    margin: 20px;
+  }
+  .names {
+    font-size: 10px;
+  }
+  .submitButton {
+    background-color: #ea580c;
+    border-radius: 3px;
+    color: #ffffff;
+    border: 0;
+    outline: none;
+    height: 14px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .button-con {
+    text-align: center;
+    width: 100%;
+  }
+  .error-msg {
+    font-size: 8px;
+    color: #ff0b37;
+  }
+  .successImage {
+    height: 30px;
+  }
+}
